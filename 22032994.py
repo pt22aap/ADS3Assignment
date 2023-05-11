@@ -18,10 +18,10 @@ warnings.simplefilter("ignore", FutureWarning)
 
 def get_world_bank_data(indicators):
     """
-    Retrieves World Bank data for the specified indicators and countries.
+    Retrieves World Bank data for specified indicators and countries.
 
     Args:
-        indicators (dict): A dictionary mapping indicator names to their codes.
+        indicators (dict): A dictionary mapping indicator names to respective codes.
 
     Returns:
         df (pandas.DataFrame): The original data with indicators as columns and years as index.
